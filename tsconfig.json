@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "removeComments": true,
+    "outDir": "./build",
+    "baseUrl": "./backend",
+    "target": "ESNEXT",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "noEmit": false,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "composite": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "incremental": true
+  },
+  "include": ["next-env.d.ts", "graphql.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules", ".cache"]
+}

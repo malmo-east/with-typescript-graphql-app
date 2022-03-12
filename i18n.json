@@ -1,0 +1,10 @@
+{
+  "locales": ["en", "ca", "ar", "he"],
+  "defaultLocale": "en",
+  "pagesInDir": "frontend/pages",
+  "pages": {
+    "*": ["common"],
+    "/": ["home"],
+    "/about": ["common"]
+  }
+}
